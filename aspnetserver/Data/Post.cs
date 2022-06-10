@@ -2,7 +2,7 @@
 
 namespace aspnetserver.Data
 {
-    internal sealed class Room
+    internal sealed class Post
     {
         [Key]
         public int RoomId { get; set; }

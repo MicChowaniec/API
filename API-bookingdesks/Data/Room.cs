@@ -5,7 +5,7 @@ namespace bookingdesks.Data
     internal sealed class Room
     {
         [Key]
-        public int DeskId { get; set; }
+        public int RoomId { get; set; }
 
         [Required]
         [MaxLength(length: 100)]

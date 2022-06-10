@@ -2,7 +2,7 @@
 
 namespace bookingdesks.Data
 {
-    internal sealed class Room
+    internal sealed class Desk
     {
         [Key]
         public int DeskId { get; set; }
@@ -10,10 +10,12 @@ namespace bookingdesks.Data
         [Required]
         [MaxLength(length: 100)]
 
-        public string Adress { get; set; } = String.Empty;
+        public bool IsTaken { get; set; } = false;
         [Required]
-        
-        public int NumberOfDesks { get; set; } 
+
+        public int RoomId { get; set; }
+
+        public DateTime Date { get; set; }
 
         
     }   

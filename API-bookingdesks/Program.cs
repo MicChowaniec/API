@@ -21,7 +21,7 @@ builder.Services.AddSwaggerGen(swaggerGenOptions =>
 {
     swaggerGenOptions.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
     {
-        Title = "ASP.NET React Tutoraial",
+        Title = "Booking desk API",
         Version = "v1"
     }
     );
